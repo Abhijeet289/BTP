@@ -1,0 +1,10 @@
+1. To train the model
+python ./train.py
+
+
+2. For interacting with the model
+CUDA_VISIBLE_DEVICES=3, python ./interact.py --model_checkpoint ./runs/MODEL_NAME
+
+
+3. For Rouge and BLEU Score
+python ./auto_eval.py
